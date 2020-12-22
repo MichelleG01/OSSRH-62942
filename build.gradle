@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.github.michelleg21'
+group 'com.github.michelleg01'
 version '1.0-SNAPSHOT'
 
 repositories {
