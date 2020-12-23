@@ -21,7 +21,6 @@ test {
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier 'sources'
     from sourceSets.main.allSource
-    from { configurations.compileOnly.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
 task javadocJar(type: Jar, dependsOn: javadoc) {
@@ -39,21 +38,45 @@ artifacts {
     sign configurations.archives
 }*/
 
+def pomConfig = {
+    licenses {
+        license {
+            name "The Apache Software License, Version 2.0"
+            url "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            distribution "repo"
+        }
+    }
+    developers {
+        developer {
+            id "MichelleG01"
+            name "michelle"
+            email "jaysen.lin@foxmail.com"
+        }
+    }
+    scm {
+        url "https://github.com/MichelleG01/OSSRH-62942"
+    }
+}
+
 publishing {
     publications {
-        mavenPublication(MavenPublication) {
-            from components.java
+        mavenJava(MavenPublication) {
             /*artifact sourcesJar {
                 classifier "sources"
             }*/
+            from components.java
+            artifact sourcesJar
+            artifact javadocJar
 
             groupId 'com.github.michelleg01'
             artifactId 'gradleExample'
             version '6.7.1'
+
             pom.withXml {
                 def root = asNode()
                 root.appendNode('description', 'Framework Sofka')
                 root.appendNode('name', 'Automation')
+                root.appendNode('url', "siteUrl")
                 root.children().last() + pomConfig
             }
         }
@@ -69,21 +92,7 @@ publishing {
     }
 }
 
-def pomConfig() {
-    resolveStrategy = Closure.DELEGATE_FIRST
-    licenses {
-        license {
-            name 'The Apache Software License, Version 2.0'
-            url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-            distribution 'repo'
-        }
-    }
-    developers {
-        developer {
-            id 'amolina'
-        }
-    }
-}
+
 
 /*model {
     //estableceremos una tarea para generar el pom del proyecto (sin publicarlo) en caso de que lo necesitemos

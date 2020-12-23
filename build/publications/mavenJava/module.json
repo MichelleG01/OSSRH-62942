@@ -3,7 +3,7 @@
   "component": {
     "group": "com.github.michelleg01",
     "module": "gradleExample",
-    "version": "1.0.1",
+    "version": "6.7.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7.1",
-      "buildId": "4fsxpsjkl5dufkjjpi35bs27yi"
+      "buildId": "lpvficrnyfhtrdjvl77ebnkvri"
     }
   },
   "variants": [
@@ -26,13 +26,13 @@
       },
       "files": [
         {
-          "name": "gradleExample-1.0.1.jar",
-          "url": "gradleExample-1.0.1.jar",
+          "name": "gradleExample-6.7.1.jar",
+          "url": "gradleExample-6.7.1.jar",
           "size": 261,
-          "sha512": "e539ce8a66fd86d04e4f6fd479ae50ce34e105b8ac6c290b43d2367a33a385a64473c7700fc4c51bcb2937287aead601cb3c8dba19debedab682d0e6445e6d09",
-          "sha256": "73b82d22e03b13361a8c519d55235f50b307a985ee436633c7769d243eb572d9",
-          "sha1": "b6924f814579151c5516add3d8732dfaecfa4b5f",
-          "md5": "310e9bb27f86d2948e6851ecbdc7b391"
+          "sha512": "d0969340ec05d6631535d1f5238955f4b4585f6b31a255e36880fbba5f178d6fbeb59a81f63a9309f8b96a54083cb241d538e93442a3eb096b2c2b3c1c1b08a4",
+          "sha256": "6d93d24a2c1acba7e664cfdc201f04d3a61b0ea108fbc1a44973bf98e95fbb83",
+          "sha1": "18b90d2eba393113e4e63704482617b30e40aab8",
+          "md5": "a2ce447fd56a0a4ff26c1cde02f35e33"
         }
       ]
     },
@@ -47,13 +47,13 @@
       },
       "files": [
         {
-          "name": "gradleExample-1.0.1.jar",
-          "url": "gradleExample-1.0.1.jar",
+          "name": "gradleExample-6.7.1.jar",
+          "url": "gradleExample-6.7.1.jar",
           "size": 261,
-          "sha512": "e539ce8a66fd86d04e4f6fd479ae50ce34e105b8ac6c290b43d2367a33a385a64473c7700fc4c51bcb2937287aead601cb3c8dba19debedab682d0e6445e6d09",
-          "sha256": "73b82d22e03b13361a8c519d55235f50b307a985ee436633c7769d243eb572d9",
-          "sha1": "b6924f814579151c5516add3d8732dfaecfa4b5f",
-          "md5": "310e9bb27f86d2948e6851ecbdc7b391"
+          "sha512": "d0969340ec05d6631535d1f5238955f4b4585f6b31a255e36880fbba5f178d6fbeb59a81f63a9309f8b96a54083cb241d538e93442a3eb096b2c2b3c1c1b08a4",
+          "sha256": "6d93d24a2c1acba7e664cfdc201f04d3a61b0ea108fbc1a44973bf98e95fbb83",
+          "sha1": "18b90d2eba393113e4e63704482617b30e40aab8",
+          "md5": "a2ce447fd56a0a4ff26c1cde02f35e33"
         }
       ]
     }

@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7.1",
-      "buildId": "7lobrb2arbaspk2equ3mankxmi"
+      "buildId": "5dq254o7hzevpn7eeq2fadknwe"
     }
   },
   "variants": [
@@ -29,10 +29,10 @@
           "name": "gradleExample-6.7.1.jar",
           "url": "gradleExample-6.7.1.jar",
           "size": 261,
-          "sha512": "cf2cf506a42ce673cb4ec56afe91adfc8717cdc619efa5aaea6526795ec1e1cd03a4ee1feead1f53a4fb54c81ff4313cfe2fcb0c6608f9fb1e202bdd87a093e9",
-          "sha256": "a9397c265b5ae89b92e8a7588923a44c2ee59bfb7a04ad8bc7db57a3bf9836ea",
-          "sha1": "99741913cee39343812f3587e22162ce031b8306",
-          "md5": "da76804788fb251b811d1564426f7e8d"
+          "sha512": "62cec349cd9cb677055890e89e74d3e750db783e824f2d3e9057cd9ae7990c8c433920d73a261325365cf685305e5a5f78e04ff88762789737ebd8467fb786a8",
+          "sha256": "f1225f22481e88af8570a508aa30446a9db3b157b4152ba58839a8c4caffd564",
+          "sha1": "0441a40f9ac426e80a4bc052b0599b01f0d29c08",
+          "md5": "e105f5584c6e8a9146e7fda2cc9c6135"
         }
       ]
     },
@@ -50,10 +50,10 @@
           "name": "gradleExample-6.7.1.jar",
           "url": "gradleExample-6.7.1.jar",
           "size": 261,
-          "sha512": "cf2cf506a42ce673cb4ec56afe91adfc8717cdc619efa5aaea6526795ec1e1cd03a4ee1feead1f53a4fb54c81ff4313cfe2fcb0c6608f9fb1e202bdd87a093e9",
-          "sha256": "a9397c265b5ae89b92e8a7588923a44c2ee59bfb7a04ad8bc7db57a3bf9836ea",
-          "sha1": "99741913cee39343812f3587e22162ce031b8306",
-          "md5": "da76804788fb251b811d1564426f7e8d"
+          "sha512": "62cec349cd9cb677055890e89e74d3e750db783e824f2d3e9057cd9ae7990c8c433920d73a261325365cf685305e5a5f78e04ff88762789737ebd8467fb786a8",
+          "sha256": "f1225f22481e88af8570a508aa30446a9db3b157b4152ba58839a8c4caffd564",
+          "sha1": "0441a40f9ac426e80a4bc052b0599b01f0d29c08",
+          "md5": "e105f5584c6e8a9146e7fda2cc9c6135"
         }
       ]
     }
